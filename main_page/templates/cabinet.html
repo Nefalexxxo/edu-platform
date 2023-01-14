@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+Vashi kursi: {% for i in user_cabinet %}
+Kurs: <a href="/user_course/{{i.user_courses}}">{{i.user_courses}}<hr>
+{% endfor %}
+
+</body>
+</html>
